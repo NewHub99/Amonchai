@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>สินค้า | FlowerShop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">✿</span>
+        <span>FlowerShop</span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">หน้าแรก</a>
+        <a href="products.html">สินค้า</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1 class="section-title">สินค้า</h1>
+      <p class="lead">เลือกช่อที่ตรงใจ</p>
+
+      <!-- ช่องค้นหา (ไม่ใช้ JS เพื่อให้เรียบง่าย) -->
+      <div class="filters">
+        <input class="input" type="search" placeholder="ตัวอย่าง: กุหลาบ, พาสเทล (ข้อความเพื่อความสวยงาม)">
+      </div>
+
+      <div class="grid-3">
+  <!-- การ์ดสินค้า -->
+  <article class="card">
+    <img src="images/Rose.jpg" alt="Rose Classic" />
+    <div class="card-body">
+      <h3>Rose Classic</h3>
+      <p class="lead">กุหลาบแดง 12 ดอก + ยูคาลิปตัส</p>
+      <p class="price">ราคา 1,200 บาท</p>
+    </div>
+  </article>
+
+  <article class="card">
+    <img src="images/Pastel.jpg" alt="Pastel Day" />
+    <div class="card-body">
+      <h3>Pastel Day</h3>
+      <p class="lead">โทนพาสเทล อบอุ่น เรียบหรู</p>
+      <p class="price">ราคา 990 บาท</p>
+    </div>
+  </article>
+
+  <article class="card">
+    <img src="images/Vase.jpg" alt="Vase Harmony" />
+    <div class="card-body">
+      <h3>Vase Harmony</h3>
+      <p class="lead">แจกันดอกไม้สไตล์มินิมอล</p>
+      <p class="price">ราคา 1,500 บาท</p>
+    </div>
+  </article>
+</div>
+      
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">โทร 099-999-9999 · Line: @FlowerShop</div>
+  </footer>
+</body>
+</html>
